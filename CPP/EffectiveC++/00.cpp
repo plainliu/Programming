@@ -22,6 +22,11 @@ Widgt w1;
 Widgt w2;
 w2 = w1;
 
+a*b
+operator*(a, b);
+
+// TR1?
+
 int main( )
 {
 	return 0;

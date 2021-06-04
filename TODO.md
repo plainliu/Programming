@@ -14,6 +14,7 @@ Coding -> Programming.
 - [ ] C++关键字（explicit……）
 - [ ] C++UB
 - [ ] C++*&指针引用取地址取内容
+- [ ] C++哈希
 
 ## 模糊到具体
 
@@ -26,3 +27,7 @@ Coding -> Programming.
 
 - [ ] 本仓库cpp结构用代码文件，编译用单独的Makefile，如有必要，用VS做一份sln解决方案
 - [ ] STL源码
+
+## 关键词们
+
+- [ ] TR1|Boost
