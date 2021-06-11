@@ -1,7 +1,4 @@
 # TODO
-Coding -> Programming.
-
-学习并整理
 
 ## 文章
 
@@ -24,6 +21,38 @@ Coding -> Programming.
 - [ ] C++lambda
 - [ ] C++左值右值
 - [ ] C++三大特性（封装、继承、多态；继承和多态的明确区分）
+- [ ] C++thread
+
+## 开坑
+
+- [ ] Games101
+- [ ] Games202
+- [ ] 软渲染
+- [ ] PBRT
+- [ ] Ray Tracing in one Weekend
+- [ ] TinyRayTracer
+- [ ] 小操作系统实践
+- [ ] 写3D数学库
+- [ ] C++并发
+- [ ] 手写STL
+- [ ] UE
+- [ ] makefile
+- [ ] leveldb
+
+## 书
+
+C++
+- [ ] C++Primer
+- [ ] Effective C++
+- [ ] More Effective C++
+- [ ] Effective STL
+- [ ] STL 源码剖析
+- [ ] 深度探索 C++ 对象模型
+
+编程
+- [ ] CSAPP
+- [ ] SICP
+- [ ] 设计模式
 
 ## 模糊到具体
 
