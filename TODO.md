@@ -22,6 +22,7 @@
 - [ ] C++左值右值
 - [ ] C++三大特性（封装、继承、多态；继承和多态的明确区分）
 - [ ] C++thread
+- [ ] C++struct初始化及Cstruct初始化
 
 ## 开坑
 
@@ -31,6 +32,7 @@
 - [ ] PBRT
 - [ ] Ray Tracing in one Weekend
 - [ ] TinyRayTracer
+- [ ] LearnOpenGL
 - [ ] 小操作系统实践
 - [ ] 写3D数学库
 - [ ] C++并发
