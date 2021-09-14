@@ -46,13 +46,16 @@ template <typename T>
 struct StaticTypeCheker;
 
 template <typename T>
-struct StaticTypeCheker { enum { Support = 0 }; };
+//struct StaticTypeCheker { enum { Support = 0 }; };
+struct StaticTypeCheker { static constexpr bool Value = false; };
 
 template <>
-struct StaticTypeCheker<int> { enum { Support = 1 }; };
+//struct StaticTypeCheker<int> { enum { Support = 1 }; };
+struct StaticTypeCheker<int> { static constexpr bool Value = true; };
 
 //template <>
 //struct StaticTypeCheker<void*> { enum { Support = 1 }; };
+//struct StaticTypeCheker<void*> { static constexpr bool Value = true; };
 
 // ...
 
@@ -75,7 +78,8 @@ void Checker( T head, Args... rest )
 	// 3. 能在编译器抛错且能说明原因
 
 	// 2. 编译期间静态检查（利用enum也是编译器就可以识别的）
-	static_assert( StaticTypeCheker<T>::Support == 1, "Unsupport Type!" ); // 做到了只在编译期检查，而且有输出
+	//static_assert( StaticTypeCheker<T>::Support == 1, "Unsupport Type!" );
+	static_assert( StaticTypeCheker<T>::Value, "Unsupport Type!" ); // 做到了只在编译期检查，而且有输出
 
 	// 缺点：报错中没有出错的具体类型
 
